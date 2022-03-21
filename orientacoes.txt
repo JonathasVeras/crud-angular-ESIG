@@ -1,0 +1,20 @@
+Para executar o projeto:
+    *Ter o node.js
+    *Chegar na pasta ..\crud_angular\crud-angular e rodar: ng room_service
+    *Checar no terminal qual porta é dada no terminal, mas por padrão é: localhost:4200
+
+O que foi feito:
+    *Um sistema simples onde há um registro e listagem de tarefas.
+
+Aprendizado e processo:
+    Instalação do CLI
+    Criar projeto: ng new crud-angular
+    Iniciar projeto: ng serve
+    Instalando o angular material: ng add @angular/material
+
+    Dificuldades:
+    O angular material tem seus temas default, o problema foi que o que escolhi estava bugando o formulário fazendo com que alguns elementos, mais de select, ficassem invisíveis, tive que criar um tema personalizado para resolver.
+        Outro problema foi na disposição da tela que estava como se eu estivesse apenas desenvolvendo para mobile, resolvi a situação mudando a disposição de tela que estava em flex. Mudei para grid.
+        Depois disso o desafio foi criar a parte de registro de uma forma que ficasse semelhante ao pedido na tarefa, enfrentei dificuldades tentando entender o sistema de grid do angular mas no final deu certo, porém com limitações.
+        Até então estava usando o material disponibilizado no get started do Angular e tutoriais na internet, foi essencial essa diversidade porque um material complementava o outro e para meu prazo eu tive que mesclar diversos métodos.
+        O mais interessante foi fazer o sistema que deletava registros porque tive que usar meu conhecimento de lógica de programação puro já que nenhum dos materiais que vi atendiam aos meus objetivos.
